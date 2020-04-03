@@ -125,7 +125,7 @@ class TicTacToe
     end
 
     #if the game was won
-    if won? 
+    if won?
       puts "Congratulations #{winner}"
     #congratulate the winner
     #else if the game was draw
