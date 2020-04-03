@@ -119,9 +119,10 @@ class TicTacToe
   def player
     #until the game is over
     until over?
-      turn
-    end 
     #take turns
+      turn
+    end
+
     #end
     #if the game was won
     #congratulate the winner
