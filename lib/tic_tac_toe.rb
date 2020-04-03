@@ -129,10 +129,10 @@ class TicTacToe
       puts "Congratulations #{winner}"
     #congratulate the winner
     #else if the game was draw
-  elsif draw?
+    elsif draw?
     #tell the players it ended in a draw
-    puts "Cat's game!"
+      puts "Cat's game!"
     #end
+    end 
   end 
-
 end
