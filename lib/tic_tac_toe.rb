@@ -133,6 +133,6 @@ class TicTacToe
     #tell the players it ended in a draw
       puts "Cat's game!"
     #end
-    end 
+    end
   end 
 end
