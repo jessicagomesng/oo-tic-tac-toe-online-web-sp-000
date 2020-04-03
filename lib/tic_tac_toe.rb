@@ -113,7 +113,20 @@ class TicTacToe
       @board[winning_array[0]]
     elsif !won?
       nil
-    end 
+    end
   end
+
+  def player
+    #until the game is over
+    until over?
+      turn
+    end 
+    #take turns
+    #end
+    #if the game was won
+    #congratulate the winner
+    #else if the game was draw
+    #tell the players it ended in a draw
+    #end
 
 end
