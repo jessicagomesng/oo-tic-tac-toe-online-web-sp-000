@@ -131,8 +131,8 @@ class TicTacToe
     #else if the game was draw
     elsif draw?
     #tell the players it ended in a draw
-      puts "Cat's game!"
+      puts "Cat's Game!"
     #end
     end
-  end 
+  end
 end
